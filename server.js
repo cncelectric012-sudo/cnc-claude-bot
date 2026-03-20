@@ -81,5 +81,3 @@ async function sendWhatsApp(to, message) {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`CNC Claude Bot running on port ${PORT}`));
-
-const PORT = process.env.PORT || 3000;
